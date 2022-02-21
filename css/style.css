@@ -3,78 +3,39 @@ html {
 }
 
 body {
-    background-image: url(../img/estrelado.jpg);
+    background-color: #FFB6C1;
     background-repeat: round;
 }
 
-.gradiente {
-    background-image: linear-gradient(to rigth, #A9A9A9, #D3D3D3);
-}
+.texto{
+    color:	#ee3e3e;
+    text-align: center;
+    font-family: 'Roboto Serif', sans-serif;
+    
+  }
 
-#sobre {
-    width: 65%;
+  .p1{
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    color: rgb(252, 221, 176);
+    color: #8B0000;
+    font-family: 'Roboto Serif', sans-serif;
 }
 
-h1 {
-    color: rgb(252, 221, 176);
-}
-
-.icones {
-    width: 30%;
-    margin-left: 35%;
-}
-
-.alinhado{
-    width: 65%;
-    margin-left: auto;
-    margin-right: auto;
+.p2{
+    font-family: 'Roboto Serif', sans-serif;
+    color:	#ee3e3e;
     text-align: center;
-    color: white;
 }
-
-.branco {
-    color: white;
-}
-
-.p1{
-    width: 65%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    color: white;
-}
-
-.iconex{
-    width: 60%;
-    margin-left: 25%;
-}
-
-.icone{
-    width: 90%;
-    margin-left: 7%;
-}
-
-.contato{
-    width: 20%;
-    margin-left: 40%;
-}
-
-footer {
-    background-color: rgb(24, 23, 23);
-    padding: 1%;
-    font-family: 'Odibee Sans', cursive;
-    position: relative;
+.imagem{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 1em;
-    line-height: 1.5;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 20%;
+    margin-left: 20%;
 }
 
-.titulos{
-    color: blanchedalmond;
-}
